@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/cardview_shadow_start_color"
+        android:scaleType="center"
+        android:id="@+id/imageArtRow"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+        <TextView
+            android:id="@+id/txtNameArtRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art Name"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/txtArtisNameArtRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Name"
+            android:textSize="14dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txtYearArtRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textSize="18dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
